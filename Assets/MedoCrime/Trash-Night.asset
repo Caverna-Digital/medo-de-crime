@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7885d812bee1ed046b0f80db917986c1, type: 3}
+  m_Name: Trash-Night
+  m_EditorClassIdentifier: Assembly-CSharp::LightningScenario
+  lightmapsColor:
+  - {fileID: 2800000, guid: 3d9c22e7aaa81a840bf52e2b50cff380, type: 3}
+  - {fileID: 2800000, guid: 25cd101bfed235b46b17d95380a41b16, type: 3}
+  - {fileID: 2800000, guid: 053d1464233a5bd4d86ebaf4d22f1d74, type: 3}
+  - {fileID: 2800000, guid: e81ad279f79741347aeef58ce40779cb, type: 3}
+  - {fileID: 2800000, guid: 06f103c8d1dd4ec47ac3a72dd564cd96, type: 3}
+  - {fileID: 2800000, guid: aa9f71f18f9d4d6488042b429f1b5181, type: 3}
+  - {fileID: 2800000, guid: 14ff8b95798876d43b5ac45a73d5271b, type: 3}
+  - {fileID: 2800000, guid: af41f4f2809b20b4c8ff805ebac160a2, type: 3}
+  - {fileID: 2800000, guid: 44fefe5bd7459964ebd354ba56998fa0, type: 3}
+  - {fileID: 2800000, guid: f5172225d4bb03c49acb5da4bc6ea209, type: 3}
+  - {fileID: 2800000, guid: 5bfe856ae142d2546a45d3236dba184a, type: 3}
+  - {fileID: 2800000, guid: 870a399e8bd08a74c8c55aeed66d260c, type: 3}
+  - {fileID: 2800000, guid: 1ed09f5f0bf947d43a5be53f80d93649, type: 3}
+  - {fileID: 2800000, guid: ad7d151c4ab9bff44a26efc903b22193, type: 3}
+  - {fileID: 2800000, guid: 1252db15e91c4904f9e285478703f0dd, type: 3}
+  - {fileID: 2800000, guid: f752a083372397a409f73df305830407, type: 3}
+  lightmapsDir:
+  - {fileID: 2800000, guid: 1a78a87e3d7ced14983223dfd68374f9, type: 3}
+  - {fileID: 2800000, guid: 2ff0e4734e3e8014cbaf992308eb93ab, type: 3}
+  - {fileID: 2800000, guid: a0ec5882c4dede24cb86efca712176eb, type: 3}
+  - {fileID: 2800000, guid: 57dda72020221ae4abf3c98abcc0b246, type: 3}
+  - {fileID: 2800000, guid: 4ff621be922a06b46a2e94f9793b262a, type: 3}
+  - {fileID: 2800000, guid: aa27783c724119043a07554e4a2789b9, type: 3}
+  - {fileID: 2800000, guid: cd8c8bd346a9a0246a76b66d5bcfcba1, type: 3}
+  - {fileID: 2800000, guid: 9ac863dfcde763a4d877767f98005c96, type: 3}
+  - {fileID: 2800000, guid: a3f7dfbecfaab5542978dcd928945a49, type: 3}
+  - {fileID: 2800000, guid: 11743be6f3863e44f9ab77f8e8aafac8, type: 3}
+  - {fileID: 2800000, guid: 9d1e69ee6afc20c4087e28cb3a15e19e, type: 3}
+  - {fileID: 2800000, guid: 89aee4c48f6e05742a382500ce9ceea3, type: 3}
+  - {fileID: 2800000, guid: 98ad6824d363abd40ac6f76e8d158981, type: 3}
+  - {fileID: 2800000, guid: 57b20fb65c2896249afa19cdd49a797b, type: 3}
+  - {fileID: 2800000, guid: 0aad89a0374ebc24c8f85b8ec14246c2, type: 3}
+  - {fileID: 2800000, guid: 739f9667b704dc14bb189b7a3bed9825, type: 3}
+  baseScene: Scenario-Trash-Night
+  reflectionCubemap: {fileID: 8900000, guid: 22e07b373abebd54c936b06838470712, type: 3}
+  sunRotation: {x: 312.18353, y: 317.4019, z: 13.285866}
+  sunIntensity: 0.01
