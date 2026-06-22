@@ -3,19 +3,10 @@ using UnityEngine.Events;
 
 public class VisibleTrigger : TriggerEvents
 {
-    public UnityEvent[] m_Actions;
-    public bool m_oneTimeOnly = false;
-    public ObjectOnFOV m_objectToBeVisible;
+    public UnityEvent m_actions;
 
-    void OnTriggerEnter(Collider other)
+    void OnBecameVisible()
     {
-        RegisterXML();
-        foreach (UnityEvent action in m_Actions)
-        {
-            action.Invoke();
-        }
-
-        if (m_oneTimeOnly)
-            this.gameObject.SetActive(false);
+        m_actions.Invoke();
     }
 }

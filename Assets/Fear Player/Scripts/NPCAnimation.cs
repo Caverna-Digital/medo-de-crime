@@ -1,9 +1,9 @@
 using UnityEngine;
-using UnityEditor.Animations;
+using UnityEngine.Animations;
 using System.Collections.Generic;
 public class NPCAnimation : MonoBehaviour
 {
-    public List<AnimatorController> controllers;
+    public List<RuntimeAnimatorController> controllers;
     public int controller = 0;
     public int value = 0;
     public string parameter = "Type";

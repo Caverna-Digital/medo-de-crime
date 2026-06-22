@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class SimpleLERP : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class SimpleLERP : MonoBehaviour
 
     private float startTime;
     private float lenght;
+
+    public UnityEvent m_endMove;
 
     private void Start()
     {
@@ -37,6 +40,12 @@ public class SimpleLERP : MonoBehaviour
         if( transform.position == end.position )
         {
             Destroy(this.gameObject);
+            m_endMove.Invoke();
         }
+    }
+
+    public void StartMove ()
+    {
+        move = true;
     }
 }

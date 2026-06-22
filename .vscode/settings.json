@@ -67,6 +67,6 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "Medo-De-Crime.slnx",
+    "dotnet.defaultSolution": "medo-de-crime.slnx",
     "dotnet.enableWorkspaceBasedDevelopment": false
 }

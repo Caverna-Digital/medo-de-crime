@@ -14,6 +14,6 @@ public class SectionTrigger : MonoBehaviour
     {
         SectionAction();
         if (m_oneTimeOnly)
-            this.gameObject.SetActive(false);
+            this.enabled = false;
     }
 }
