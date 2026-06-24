@@ -413,8 +413,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8300270327012713666, guid: 33cfbe033733190b4a28eb3443dc4777, type: 3}
       propertyPath: LightScenes.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8300270327012713666, guid: 33cfbe033733190b4a28eb3443dc4777, type: 3}
+      propertyPath: 'LightScenes.Array.data[0]'
+      value: 
+      objectReference: {fileID: 11400000, guid: d8abcd492322c9b4b92f565e29d0dbba, type: 2}
+    - target: {fileID: 8300270327012713666, guid: 33cfbe033733190b4a28eb3443dc4777, type: 3}
+      propertyPath: 'LightScenes.Array.data[1]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 0d25d4bfb76273a4d9a00b6fad5825cd, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
